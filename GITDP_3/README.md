@@ -49,6 +49,8 @@ conda install numpy
 conda install cupy
 pip install GPUInfo
 pip install mlxtend
+
+##Caution: you also need to pip cvxpy etc.
 ```	
 
 Packages `cupy` and `GPUInfo` are required for GPU computation. `mlxtend` is required for MNIST dataset.
